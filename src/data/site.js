@@ -7,7 +7,7 @@ export const NAV_LINKS = [
 
 export const CASE_STUDIES = [
   {
-    slug: 'cs-utility-reconnection',
+    slug: 'CSUtilityReconnection',
     tags: ['Enterprise Utility', 'Systems Design', 'Accessibility'],
     title: 'Designing Omnichannel Utility Reconnection',
     description:
@@ -17,7 +17,7 @@ export const CASE_STUDIES = [
     href: 'https://www.angeld.design/cs-utility-reconnection',
   },
   {
-    slug: 'cs-figma-ui-documentation-kit',
+    slug: 'CSFigmaDocumentationKit',
     tags: ['Design Systems', 'Internal Tooling', 'Governance'],
     title: 'Designing Experience Documentation at Scale',
     description:
@@ -27,7 +27,7 @@ export const CASE_STUDIES = [
     href: 'https://www.angeld.design/cs-figma-ui-documentation-kit',
   },
   {
-    slug: 'cs-utility-contact-nudge',
+    slug: 'CSUtilityContactNudge',
     tags: ['Customer Trust', 'Systems Design', 'Accessibility'],
     title: 'Introducing Trustworthy Contact Updates',
     description:
@@ -37,7 +37,7 @@ export const CASE_STUDIES = [
     href: 'https://www.angeld.design/cs-utility-contact-nudge',
   },
   {
-    slug: 'cs-payment-plan-improvements',
+    slug: 'CSPaymentPlanImprovements',
     tags: ['Journey Architecture', 'Behavioral UX', 'Enterprise Utility'],
     title: 'Streamlining Payment Plan Activation',
     description:
@@ -47,7 +47,7 @@ export const CASE_STUDIES = [
     href: 'https://www.angeld.design/cs-payment-plan-improvements',
   },
   {
-    slug: 'cs-adaptive-ai',
+    slug: 'CSAdaptiveAI',
     tags: ['AI Design', 'Emotional UX', 'Concept Exploration'],
     title: 'Designing Clarity for Overwhelming Moments',
     description:
