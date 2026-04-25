@@ -1,11 +1,12 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+
+const MotionLink = motion(Link);
 
 export default function CaseStudyCard({ study, index }) {
   return (
-    <motion.a
-      href={study.href}
-      target="_blank"
-      rel="noopener noreferrer"
+    <MotionLink
+      to={`/case-studies/${study.slug}`}
       initial={{ opacity: 0, y: 32 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-60px' }}
@@ -21,7 +22,6 @@ export default function CaseStudyCard({ study, index }) {
           loading="lazy"
         />
       </div>
-
       {/* Content */}
       <div className="p-7 flex flex-col gap-4">
         {/* Tags */}
@@ -30,15 +30,12 @@ export default function CaseStudyCard({ study, index }) {
             <span key={tag} className="tag-pill">{tag}</span>
           ))}
         </div>
-
         {/* Title */}
         <h3 className="font-display text-xl font-medium leading-snug group-hover:text-accent transition-colors duration-300">
           {study.title}
         </h3>
-
         {/* Description */}
         <p className="text-sm text-muted leading-relaxed">{study.description}</p>
-
         {/* CTA */}
         <div className="flex items-center justify-between mt-2 pt-4 border-t border-warm">
           {study.meta && (
@@ -49,6 +46,6 @@ export default function CaseStudyCard({ study, index }) {
           </span>
         </div>
       </div>
-    </motion.a>
+    </MotionLink>
   );
 }
