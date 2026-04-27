@@ -7,7 +7,7 @@ export const NAV_LINKS = [
 
 export const CASE_STUDIES = [
   {
-    slug: 'cs-utility-reconnection',
+    slug: 'case-studies/cs-utility-reconnection',
     tags: ['Enterprise Utility', 'Systems Design', 'Accessibility'],
     title: 'Designing Omnichannel Utility Reconnection',
     description:
