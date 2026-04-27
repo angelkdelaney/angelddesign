@@ -15,6 +15,14 @@ export default {
         muted: '#8c8478',
         accent: '#c96a3a',
         'accent-light': '#e8b49a',
+        // New palette
+        pearl: '#faf9f7',
+        indigo: '#4a5568',
+        'indigo-dark': '#2d3748',
+        rust: '#c96a3a',
+        'rust-dark': '#9c4f26',
+        'tag-indigo-bg': '#e8eaf0',
+        'tag-rust-bg': '#f5e6de',
       },
       letterSpacing: {
         widest: '0.2em',

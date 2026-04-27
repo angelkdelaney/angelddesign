@@ -6,19 +6,34 @@
 
 @layer base {
   html { scroll-behavior: smooth; }
-  body { @apply bg-paper text-ink font-body antialiased; }
-  ::selection { @apply bg-accent text-paper; }
+  body { @apply bg-pearl text-ink font-body antialiased; }
+  ::selection { @apply bg-indigo text-white; }
 }
 
 @layer components {
   .nav-link {
     @apply text-xs tracking-widest uppercase text-muted hover:text-ink transition-colors duration-300 font-body font-medium;
   }
+  .tag-pill-indigo {
+    @apply text-xs tracking-widest uppercase font-mono text-indigo bg-tag-indigo-bg px-2 py-1;
+  }
+  .tag-pill-rust {
+    @apply text-xs tracking-widest uppercase font-mono text-rust-dark bg-tag-rust-bg px-2 py-1;
+  }
   .tag-pill {
     @apply text-xs tracking-widest uppercase font-mono text-muted border border-warm px-2 py-1;
   }
   .section-label {
-    @apply text-xs tracking-widest uppercase font-mono text-muted;
+    @apply text-xs tracking-widest uppercase font-mono text-rust;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-indigo text-white text-sm font-medium px-6 py-3 hover:bg-ink transition-colors duration-300;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border border-ink text-ink text-sm font-medium px-6 py-3 hover:bg-ink hover:text-pearl transition-all duration-300;
+  }
+  .link-rust {
+    @apply text-sm font-medium text-rust hover:text-ink transition-colors duration-200;
   }
 }
 
