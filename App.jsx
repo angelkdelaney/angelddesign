@@ -33,7 +33,7 @@ function AnimatedRoutes() {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/angelddesign">
+    <BrowserRouter>
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <div className="flex-1">
