@@ -9,23 +9,25 @@ export default {
         mono: ['"DM Mono"', 'monospace'],
       },
       colors: {
-        ink: '#0f0f0f',
-        paper: '#f5f2ee',
-        warm: '#e8e2d9',
-        muted: '#8c8478',
-        accent: '#c96a3a',
-        'accent-light': '#e8b49a',
-        // New palette
-        pearl: '#faf9f7',
-        indigo: '#4a5568',
-        'indigo-dark': '#2d3748',
-        rust: '#c96a3a',
-        'rust-dark': '#9c4f26',
-        'tag-indigo-bg': '#e8eaf0',
-        'tag-rust-bg': '#f5e6de',
+        // Pearl & Indigo Rust — AA verified
+        pearl:   '#f5f5f3',   // page background
+        white:   '#ffffff',   // card background
+        ink:     '#1e2d3d',   // primary text (AAA on pearl)
+        indigo:  '#2b4175',   // buttons, italic headings, links (AA on pearl)
+        rust:    '#a85f35',   // accents, CTAs, labels (AA Large — use 18px+ only)
+        'rust-dark': '#964f28', // rust on light tag backgrounds (AA small text)
+        muted:   '#5a6472',   // captions, meta, secondary text (AA on pearl)
+        warm:    '#d8dce3',   // borders, dividers
+        // Tag backgrounds
+        'tag-indigo-bg': '#dce5f2',
+        'tag-rust-bg':   '#fceee6',
       },
       letterSpacing: {
         widest: '0.2em',
+      },
+      borderRadius: {
+        sm: '2px',
+        md: '4px',
       },
     },
   },

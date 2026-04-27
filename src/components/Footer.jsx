@@ -2,9 +2,8 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer className="border-t border-warm bg-paper mt-32">
+    <footer className="border-t border-warm bg-pearl mt-32">
       <div className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
-        {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
           <img
             src="https://framerusercontent.com/images/EUSGpCVt7img99GiVWMpL6EYp0.png"
@@ -17,14 +16,12 @@ export default function Footer() {
           </span>
         </Link>
 
-        {/* Nav */}
         <nav className="flex flex-col gap-4">
           <Link to="/about" className="nav-link">About</Link>
           <Link to="/case-studies" className="nav-link">Case Studies</Link>
           <Link to="/contact" className="nav-link">Contact</Link>
         </nav>
 
-        {/* Right */}
         <div className="flex flex-col gap-4">
           <p className="text-sm text-muted leading-relaxed">
             Always open to thoughtful conversations about product and design.
@@ -33,7 +30,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/angelkdelaney/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-medium text-accent hover:text-ink transition-colors"
+            className="link-rust"
           >
             LinkedIn →
           </a>

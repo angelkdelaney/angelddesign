@@ -5,7 +5,6 @@ export const NAV_LINKS = [
   { label: 'Contact', to: '/contact' },
 ];
 
-
 export const CASE_STUDIES = [
   {
     slug: 'cs-utility-reconnection',

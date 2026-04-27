@@ -20,11 +20,10 @@ export default function Navbar() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          scrolled ? 'bg-paper/90 backdrop-blur-md border-b border-warm shadow-sm' : 'bg-transparent'
+          scrolled ? 'bg-pearl/90 backdrop-blur-md border-b border-warm shadow-sm' : 'bg-transparent'
         }`}
       >
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <img
               src="https://framerusercontent.com/images/EUSGpCVt7img99GiVWMpL6EYp0.png"
@@ -37,7 +36,6 @@ export default function Navbar() {
             </span>
           </Link>
 
-          {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map(({ label, to }) => (
               <NavLink
@@ -53,7 +51,6 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {/* Mobile hamburger */}
           <button
             className="md:hidden flex flex-col gap-1.5 p-2"
             onClick={() => setMobileOpen(o => !o)}
@@ -66,7 +63,6 @@ export default function Navbar() {
         </div>
       </motion.header>
 
-      {/* Mobile menu */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
@@ -74,14 +70,14 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.25 }}
-            className="fixed inset-0 z-40 bg-paper flex flex-col items-center justify-center gap-10"
+            className="fixed inset-0 z-40 bg-pearl flex flex-col items-center justify-center gap-10"
           >
             {NAV_LINKS.map(({ label, to }) => (
               <NavLink
                 key={to}
                 to={to}
                 end={to === '/'}
-                className="font-display text-3xl text-ink hover:text-accent transition-colors"
+                className="font-display text-3xl text-ink hover:text-indigo transition-colors"
                 onClick={() => setMobileOpen(false)}
               >
                 {label}

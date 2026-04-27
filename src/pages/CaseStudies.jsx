@@ -5,7 +5,6 @@ import { CASE_STUDIES } from '../data/site';
 export default function CaseStudies() {
   return (
     <main className="pt-28">
-      {/* Header */}
       <section className="max-w-6xl mx-auto px-6 pt-12 pb-16">
         <motion.span
           initial={{ opacity: 0, y: 16 }}
@@ -21,7 +20,7 @@ export default function CaseStudies() {
           transition={{ duration: 0.7, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
           className="font-display text-4xl md:text-6xl font-medium leading-[1.1] tracking-tight"
         >
-          Case Studies
+          Case <em className="italic text-indigo">Studies</em>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 16 }}
@@ -35,7 +34,6 @@ export default function CaseStudies() {
 
       <div className="border-t border-warm" />
 
-      {/* Grid */}
       <section className="max-w-6xl mx-auto px-6 py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {CASE_STUDIES.map((study, i) => (
