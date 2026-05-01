@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import CaseStudyCard from '../components/CaseStudyCard';
 import { CASE_STUDIES, SKILLS, TOOL_LOGOS } from '../data/site';
 import HeroImageStack from "../components/HeroImageStack";
-import profilePic from "../assets/profile-image.png";
+import profilePic from "../assets/hero-image.png";
 
 // In your hero section:
 <div className="text-center px-4 py-16 md:py-24">
