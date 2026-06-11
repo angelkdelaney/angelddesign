@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import CaseStudyCard from '../components/CaseStudyCard';
 import { CASE_STUDIES, SKILLS, TOOL_LOGOS } from '../data/site';
 import HeroImageStack from "../components/HeroImageStack";
-import profilePic from "../assets/hero-image.png"; 
+import profilePic from "../assets/hero-image.png";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },

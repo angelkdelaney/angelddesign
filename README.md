@@ -1,5 +1,5 @@
 # Angel Delaney — Portfolio Site
-
+ 
 **Stack:** Vite + React + Tailwind CSS + Framer Motion + React Router
 
 ## Local Development

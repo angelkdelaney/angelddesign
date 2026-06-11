@@ -43,30 +43,27 @@ export default function HeroImageStack({ src, alt = "Profile" }) {
         <img src={src} alt={alt} draggable="false" />
       </motion.div>
 
-            {/* Front card — photo */}
       <motion.div
-  className="hero-bloom-purple"
-  initial={{ scale: 1, opacity: 0.36 }}
-/*   animate={{
-    scale: [1, 1.06, 0.97, 1],
-    opacity: [0.36, 0.28, 0.4, 0.36],
-  }} */
-  transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
-/>
-
+        className="hero-bloom-purple"
+        initial={{ scale: 1, opacity: 0.36 }}
+        /*   animate={{
+          scale: [1, 1.06, 0.97, 1],
+          opacity: [0.36, 0.28, 0.4, 0.36],
+        }} */
+        transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
+      />
 
       {/* Soft pink background bloom */}
-<motion.div
-  className="hero-bloom"
-  initial={{ scale: 1, opacity: 0.36 }}
-/*   animate={{
-    scale: [1, 1.06, 0.97, 1],
-    opacity: [0.36, 0.28, 0.4, 0.36],
-  }} */
-  transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
-/>
+      <motion.div
+        className="hero-bloom"
+        initial={{ scale: 1, opacity: 0.36 }}
+        /*   animate={{
+          scale: [1, 1.06, 0.97, 1],
+          opacity: [0.36, 0.28, 0.4, 0.36],
+        }} */
+        transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
+      />
 
     </div>
   );
 }
-

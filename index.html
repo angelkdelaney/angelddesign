@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Angel Delaney — Senior UX + Product Designer. Systems thinking meets accessible, human-centered design." />
     <title>Angel Delaney | Senior UX Designer</title>
+    <script>
+      // GitHub Pages SPA redirect — restores path after 404 redirect
+      (function() {
+        var redirect = sessionStorage.getItem('redirect');
+        if (redirect && redirect !== '/') {
+          sessionStorage.removeItem('redirect');
+          window.history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
