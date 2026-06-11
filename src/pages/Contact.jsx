@@ -38,7 +38,6 @@ export default function Contact() {
             alt="Angel Delaney"
             className="w-full max-w-sm object-cover"
           />
-          <div className="absolute -bottom-5 -right-5 w-28 h-28 border border-indigo/20" />
         </motion.div>
 
         <div className="flex flex-col gap-10">
