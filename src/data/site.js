@@ -7,54 +7,54 @@ export const NAV_LINKS = [
 
 export const CASE_STUDIES = [
   {
-    slug: 'cs-utility-reconnection',
+    slug: 'utility-reconnection',
     tags: ['Enterprise Utility', 'Systems Design', 'Accessibility'],
     title: 'Designing Omnichannel Utility Reconnection',
     description:
       'Designed a net-new self-service reconnection experience across web and IVR, built for clarity under stress and 24/7 completion. This work aligned policy, operations, and technology to create a more predictable and accessible path back to service.',
     meta: 'Hands-on lead — Omnichannel (Web + IVR)',
     image: 'https://framerusercontent.com/images/0BIS8X7PAgt28VygyY8IigH3GHg.png?width=794&height=577',
-    href: 'https://www.angeld.design/cs-utility-reconnection',
+    href: '/case-studies/utility-reconnection',
   },
   {
-    slug: 'cs-figma-ui-documentation-kit',
+    slug: 'figma-documentation-kit',
     tags: ['Design Systems', 'Internal Tooling', 'Governance'],
     title: 'Designing Experience Documentation at Scale',
     description:
       'Teams needed a consistent way to review and align on work. This system created a shared documentation source of truth and formalized how design, product, and stakeholders collaborate.',
     meta: 'Hands-on lead — Design systems & internal tooling',
     image: 'https://framerusercontent.com/images/BeVXfVAmaE36xpxY48fwPQ7ctk.png?width=794&height=577',
-    href: 'https://www.angeld.design/cs-figma-ui-documentation-kit',
+    href: '/case-studies/figma-documentation-kit',
   },
   {
-    slug: 'cs-utility-contact-nudge',
+    slug: 'utility-contact-nudge',
     tags: ['Customer Trust', 'Systems Design', 'Accessibility'],
     title: 'Introducing Trustworthy Contact Updates',
     description:
       'A behavioral-design initiative improving how customers keep their contact information current across channels. This work centered on trust, clarity, and accessibility — helping customers stay informed while reducing operational risk.',
     meta: 'Hands-on lead — Omnichannel (Web + IVR)',
     image: 'https://framerusercontent.com/images/D0qpvUmdiodp3davHmQqXyi8o.png?width=1344&height=710',
-    href: 'https://www.angeld.design/cs-utility-contact-nudge',
+    href: '/case-studies/utility-contact-nudge',
   },
   {
-    slug: 'cs-payment-plan-improvements',
+    slug: 'payment-plan-improvements',
     tags: ['Journey Architecture', 'Behavioral UX', 'Enterprise Utility'],
     title: 'Streamlining Payment Plan Activation',
     description:
       'Re-architecting a fragmented payment plan activation flow into a cohesive, insight-driven funnel grounded in behavioral and accessibility best practices.',
     meta: 'Hands-on lead — Journey redesign',
     image: 'https://framerusercontent.com/images/KlWKyUKAxSMX28VzIKK69q06sQk.png?width=1331&height=878',
-    href: 'https://www.angeld.design/cs-payment-plan-improvements',
+    href: '/case-studies/payment-plan-improvements',
   },
   {
-    slug: 'cs-adaptive-ai',
+    slug: 'adaptive-ai',
     tags: ['AI Design', 'Emotional UX', 'Concept Exploration'],
     title: 'Designing Clarity for Overwhelming Moments',
     description:
       'A principal exploratory case study examining how adaptive AI can support emotional presence — without judgment, optimization, or behavioral pressure.',
     meta: 'Principal concept — AI + emotional design',
     image: 'https://framerusercontent.com/images/2sudCj8dWrz3svcBfgRSi4aUys.png?width=1324&height=1412',
-    href: 'https://www.angeld.design/cs-adaptive-ai',
+    href: '/case-studies/adaptive-ai',
   },
 ];
 

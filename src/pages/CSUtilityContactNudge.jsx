@@ -24,7 +24,7 @@ export default function CSUtilityContactNudge() {
       description="A senior-level product design case study focused on improving customer outreach, regulatory compliance, and operational confidence by enabling secure, self-service contact updates across channels and operating companies."
       heroImage="https://framerusercontent.com/images/D0qpvUmdiodp3davHmQqXyi8o.png"
       role="Role: Senior Product Designer (hands-on lead) · Scope: Web + IVR omnichannel experience · Partners: Product, Business, Engineering, Legal, Regulatory"
-      relatedSlugs={['cs-adaptive-ai', 'cs-payment-plan-improvements', 'cs-utility-reconnection', 'cs-figma-ui-documentation-kit']}
+      relatedSlugs={['adaptive-ai', 'payment-plan-improvements', 'utility-reconnection', 'figma-documentation-kit']}
     >
       {/* Business Context */}
       <section className="py-20 border-b border-warm">

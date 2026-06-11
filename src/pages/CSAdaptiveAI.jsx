@@ -20,7 +20,7 @@ export default function CSAdaptiveAI() {
       title="Designing Clarity for Overwhelming Moments"
       subtitle="As AI becomes increasingly embedded in digital products, designers face a new challenge: not how much intelligence to add, but when intelligence should remain quiet."
       heroImage="https://framerusercontent.com/images/lqtEx9ROKUE3AcE9c7amUqa7h2g.png"
-      relatedSlugs={['cs-payment-plan-improvements', 'cs-utility-reconnection', 'cs-utility-contact-nudge', 'cs-figma-ui-documentation-kit']}
+      relatedSlugs={['payment-plan-improvements', 'utility-reconnection', 'utility-contact-nudge', 'figma-documentation-kit']}
     >
       {/* Conscious Boundaries */}
       <section className="py-20 border-b border-warm">

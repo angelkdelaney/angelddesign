@@ -23,7 +23,7 @@ export default function CSFigmaDocumentationKit() {
       description="I designed a shared UI documentation toolkit in Figma to bring structure, clarity, and accountability to design work — supporting multi-stage reviews, cross-functional alignment, and regulated delivery at scale."
       heroImage="https://framerusercontent.com/images/dxHf36pkrMxdydjZpwgu9MPbqYU.png"
       heroCaption="A standardized abstraction of a documentation layout with annotations, approvals, role-specific notes and review readiness at a glance."
-      relatedSlugs={['cs-adaptive-ai', 'cs-payment-plan-improvements', 'cs-utility-reconnection', 'cs-utility-contact-nudge']}
+      relatedSlugs={['adaptive-ai', 'payment-plan-improvements', 'utility-reconnection', 'utility-contact-nudge']}
     >
       {/* The Problem */}
       <section className="py-20 border-b border-warm">

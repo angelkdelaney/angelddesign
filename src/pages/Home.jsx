@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import CaseStudyCard from '../components/CaseStudyCard';
 import { CASE_STUDIES, SKILLS, TOOL_LOGOS } from '../data/site';
+import HeroImageStack from "../components/HeroImageStack";
+import profilePic from "../assets/hero-image.png"; 
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -48,23 +50,8 @@ export default function Home() {
           </motion.div>
         </div>
 
-        {/* Profile image */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.96 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.9, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-          className="relative"
-        >
-          <div className="relative overflow-hidden">
-            <img
-              src="https://framerusercontent.com/images/zERT73VmbBCJEJqBvtPE3rhtU.png"
-              alt="Angel Delaney"
-              className="w-full max-w-md mx-auto object-cover"
-            />
-            <div className="absolute -bottom-4 -right-4 w-32 h-32 border border-indigo/20 -z-10" />
-            <div className="absolute -top-4 -left-4 w-20 h-20 border border-warm -z-10" />
-          </div>
-        </motion.div>
+        <HeroImageStack src={profilePic} alt="Angel Delaney" />
+
       </section>
 
       <div className="border-t border-warm" />

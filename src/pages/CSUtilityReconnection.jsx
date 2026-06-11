@@ -22,7 +22,7 @@ export default function CSUtilityReconnection() {
       title="Designing Omnichannel Utility Reconnection"
       subtitle="Designing a 24/7 self-service reconnection experience across web and IVR — built for clarity under stress."
       heroImage="https://framerusercontent.com/images/dKFK36XObRusLdtNj6HRmLI6As.png"
-      relatedSlugs={['cs-payment-plan-improvements', 'cs-utility-contact-nudge', 'cs-figma-ui-documentation-kit']}
+      relatedSlugs={['payment-plan-improvements', 'utility-contact-nudge', 'figma-documentation-kit']}
     >
       {/* Overview */}
       <section className="py-20 border-b border-warm">

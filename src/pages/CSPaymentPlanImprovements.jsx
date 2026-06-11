@@ -23,7 +23,7 @@ export default function CSPaymentPlanImprovements() {
       description="Customers enrolling in payment plans frequently failed to complete required activation steps, resulting in invalid states and confusion. I redesigned the flow to clarify activation requirements, prevent invalid states, and improve confidence in a compliance-sensitive financial experience."
       heroImage="https://framerusercontent.com/images/5YIFIPRhc73N5X3KliIY7ZZdcEI.png"
       heroCaption="Aligning system logic and user behavior in a high-stakes payment flow."
-      relatedSlugs={['cs-figma-ui-documentation-kit', 'cs-adaptive-ai', 'cs-utility-reconnection', 'cs-utility-contact-nudge']}
+      relatedSlugs={['figma-documentation-kit', 'adaptive-ai', 'utility-reconnection', 'utility-contact-nudge']}
     >
       {/* Context & Stakes */}
       <section className="py-20 border-b border-warm">

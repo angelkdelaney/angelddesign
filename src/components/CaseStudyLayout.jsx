@@ -110,7 +110,7 @@ export function RelatedStudies({ slugs }) {
         {related.map((study, i) => (
           <motion.div key={study.slug} {...fadeUp(i * 0.1)}>
             <Link
-              to={`/case-studies/${study.slug}`}
+              to={study.href}
               className="group block border border-warm p-6 hover:border-accent transition-colors duration-300"
             >
               {study.image && (
